@@ -21,7 +21,7 @@ async def stream_openai_chat(message: str):
     ]
 
     while True:
-        user_message = input("사용자: ")
+        user_message = input("👤 사용자: ")
 
         if user_message.strip().lower() in ["exit", "quit"]:
             print("연결이 종료되었습니다.")
@@ -43,5 +43,5 @@ async def stream_openai_chat(message: str):
         print()  # 줄바꿈
 
 if __name__ == "__main__":
-    user_message = input("👤 사용자 메시지: ")
+    user_message = input("👤 사용자 : ")
     asyncio.run(stream_openai_chat(user_message))
