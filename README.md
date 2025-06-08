@@ -16,7 +16,8 @@ AssetPlus는 금융 리포트 요약, 실시간 금융 뉴스 분석, 그리고 
 ## 기술 스택
 
 - **Backend**: Python, FastAPI
-- **WebSocket**: 실시간 양방향 통신
+- **Frontend**: Flutter
+- **WebSocket**: WebSockets.connet 방식
 - **Model**: OpenAI 'gpt-4o-realtime-preview-2025-06-03'
 
 ## bacnend Server 설치 방법
