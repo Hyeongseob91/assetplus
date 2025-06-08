@@ -20,10 +20,11 @@ AssetPlus는 금융 리포트 요약, 실시간 금융 뉴스 분석, 그리고 
 - **AI**: OpenAI GPT-4 Realtime API
 - **데이터 수집**: BeautifulSoup4, aiohttp
 
-## 설치 방법
+## bacnend Server 설치 방법
 
 1. **필요한 패키지 설치**
 ```bash
+cd assetsplus-backend
 pip install -r requirements.txt
 ```
 
