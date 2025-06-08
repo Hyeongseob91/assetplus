@@ -72,26 +72,19 @@ assetplus-backend<br>
   - 실시간 양방향 통신
   - 모든 기능을 하나의 연결로 처리
 
-## 주의사항
+## 개발 현황
+1. FastAPI 기반 backend Server 구축
+2. Flutter 기반 frontend Client 구축
+3. Android Studio를 활용한 UI/UX 테스트 진행
 
-1. **API 키 보안**
-   - OpenAI API 키는 반드시 `.env` 파일에 저장하세요
+## 포함된 파일 항목
+### 1. backend
+- realtime_openai.py : RealTime API를 사용하는 AI Tool 모음
+- main.py : FastAPI 기반의 WebSocket 통신 방식의 서버
+- ephemeral_token.py : RealTime API Key를 사용 할 수 있도록, 기존의 API Key를 인증 받을 수 있는 서버
+- stream_openai_test.py : WebSocket Test file
 
-2. **에러 처리**
-   - 네트워크 오류
-   - API 호출 제한
-   - 잘못된 입력 처리
-
-## 라이선스
-
-이 프로젝트는 MIT 라이선스를 따릅니다.
-
-## 기여 방법
-
-1. 이슈 생성
-2. 브랜치 생성
-3. 변경사항 커밋
-4. Pull Request 생성
-
-
-프로젝트 관련 문의사항은 이슈를 통해 남겨주세요.
+### 2. frontend
+- main.dart : Flutter 기반 Frontend Script Code
+- pubspec.yaml : 프로젝트의 의존성, 에셋, 환경설정 등
+- assetplus.apk : 실제로 빌드된 apk 파일
