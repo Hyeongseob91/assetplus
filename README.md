@@ -13,6 +13,8 @@ AssetPlus는 금융 리포트 요약, 실시간 금융 뉴스 분석, 그리고 
 3. **일반 상담**
    - 일반적인 금융관련 상담이 가능한 Chatbot 형태의 AI 도우미
 
+![image](./assets/image1.png)
+
 ## 기술 스택
 
 - **Backend**: Python, FastAPI
