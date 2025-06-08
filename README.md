@@ -17,8 +17,7 @@ AssetPlus는 금융 리포트 요약, 실시간 금융 뉴스 분석, 그리고 
 
 - **Backend**: Python, FastAPI
 - **WebSocket**: 실시간 양방향 통신
-- **AI**: OpenAI GPT-4 Realtime API
-- **데이터 수집**: BeautifulSoup4, aiohttp
+- **Model**: OpenAI 'gpt-4o-realtime-preview-2025-06-03'
 
 ## bacnend Server 설치 방법
 
@@ -41,7 +40,8 @@ python main.py
 
 2. **서버 접속**
 - WebSocket 엔드포인트: `ws://localhost:8000/ws/chat`
-- API 문서: `http://localhost:8000/docs`
+- Local Server: `http://localhost:8000`
+- API 인증 Server: `http://localhost:8080`
 
 ## 사용 방법
 
